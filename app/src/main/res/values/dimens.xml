@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="produto_imagem_lista">32dp</dimen>
+
+    <dimen name="label_size">12sp</dimen>
+    <dimen name="input_size">16sp</dimen>
+    <dimen name="select_size">16sp</dimen>
+</resources>

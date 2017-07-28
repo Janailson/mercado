@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.jsadev.mercado">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.orm.SugarApp"
+        android:theme="@style/Theme.MyTheme"
+        tools:replace="android:icon">
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="mercado_bd.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="br.com.jsadev.mercado" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Mercado">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListaActivity" />
+        <activity android:name=".ListaCriarActivity" />
+        <activity android:name=".CategoriaActivity" />
+        <activity android:name=".UnidadeActivity" />
+        <activity android:name=".ProdutoActivity" />
+        <activity android:name=".CategoriaCriarActivity" />
+        <activity android:name=".UnidadeCriarActivity" />
+        <activity android:name=".ProdutoCriarActivity" />
+    </application>
+
+</manifest>

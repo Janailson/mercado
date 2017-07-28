@@ -1,0 +1,8 @@
+<resources>
+    <string name="spinner_categoria">Selecione a categoria</string>
+    <string-array name="spinner_categorias">
+        <item>Bebidas</item>
+        <item>Carnes</item>
+        <item>Frutas, ovos e verduras</item>
+    </string-array>
+</resources>

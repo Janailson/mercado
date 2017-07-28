@@ -1,0 +1,8 @@
+<resources>
+    <string name="spinner_unidade">Selecione a unidade</string>
+    <string-array name="spinner_unidades">
+        <item>un</item>
+        <item>kg</item>
+        <item>L</item>
+    </string-array>
+</resources>

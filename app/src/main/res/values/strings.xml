@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mercado</string>
+    <string name="hello_world">Hello World!!</string>
+
+    <string name="string_label_nome">Nome</string>
+    <string name="string_label_unidade">Unidade</string>
+    <string name="string_label_preco">Preço</string>
+    <string name="string_label_categoria">Categoria</string>
+    <string name="string_label_foto">Foto</string>
+</resources>
